@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://dlfgge0wold6r"]
+
+[ext_resource type="Texture2D" uid="uid://clctumwjl6fwu" path="res://sprites/background.png" id="1_ii61x"]
+[ext_resource type="Script" uid="uid://cv1fs8208am7o" path="res://scripts/generator_final.gd" id="2_udk1a"]
+[ext_resource type="PackedScene" uid="uid://chtuh5isa77vx" path="res://objects/tree_0.tscn" id="3_itud8"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(640, 360)
+texture = ExtResource("1_ii61x")
+metadata/_edit_lock_ = true
+
+[node name="Generator" type="Node2D" parent="."]
+script = ExtResource("2_udk1a")
+tree_scene_object = ExtResource("3_itud8")
