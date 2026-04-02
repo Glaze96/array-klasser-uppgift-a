@@ -32,7 +32,7 @@ func _ready() -> void:
 	# B_generate_line()
 	
 	## EXTRA: Skapa en mer skogig skog
-	# EXTRA_generate_random()
+	EXTRA_generate_random()
 
 ## UPPGIFT A
 # Skapar ett träd
