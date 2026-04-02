@@ -10,3 +10,5 @@ Förstå array och klasser
 
 ## Slutprodukt
 En enkel skog-generator i godot
+
+![preview of final product](https://i.imgur.com/p66jW1E.gif)
